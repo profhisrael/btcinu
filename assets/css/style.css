@@ -1,0 +1,1645 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
+/* Default CSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, span, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent;
+}
+body{ 
+	font-family: 'Plus Jakarta Sans', sans-serif; 
+	overflow-x: hidden; 
+}
+
+html{
+	overflow-x: hidden; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	word-spacing: 5px;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+button{
+  outline: none !important;
+}
+input
+{
+    outline:none !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+  padding:0;
+}
+input, button, textarea, select{
+  outline: none;
+}
+.btn.focus, .btn:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.share_text h2 span,
+.section_title h2 span{
+	position: relative;
+}
+
+
+.share_text h2 span img {
+	position: absolute;
+	bottom: -8px;
+	right: 15px;
+	width: 100%;
+}
+
+.section_title h2 {
+	color: #FFF;
+	text-align: center;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 130%;
+	letter-spacing: -1.44px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.section_title { 
+	margin-bottom: 50px;
+	text-align: center;
+}
+.section_title p {
+	color: #878C91;
+	text-align: center;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 180%;
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+}
+p {
+	color: #878C91; 
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+	letter-spacing: -0.36px;
+	opacity: 0.699999988079071; 
+}
+
+.section_padding{
+	padding: 100px 0;
+}
+
+.desktop_hide{
+	display: none;
+} 
+
+.bars_menu i {
+	color: #fff;
+	font-size: 30px;
+} 
+
+.container	{
+	width: 100%;
+	max-width: 1268px;
+	margin: 0 auto;
+}
+
+
+/********** Start Hedaer Area CSS  *************/
+
+.header_area_main {
+	background: #1A1B24;
+	padding: 35px 0; 
+}
+
+.logo a span {
+	color: #FFF; 
+	font-family: 'Manrope', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 120.7%;
+	text-transform: uppercase;
+}
+
+.logo a img { 
+	width: 50px;
+	height: 50px;
+}
+
+.logo a {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.header_box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu ul li a {
+	color: #FFF;
+	 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: -0.32px;
+}
+
+.menu ul li a.active, 
+.menu ul li a:hover { 
+	font-weight: 700; 
+	color: var(--yellow, #fff);
+}
+.menu ul li a:focus { 
+	font-weight: 700; 
+	color: var(--yellow, #FAE700);
+}
+
+.menu ul {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.header_social ul {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 10px;
+}
+
+.header_social ul li img {
+	width: 40px; 
+	height: 40px;
+}
+
+.bars_menu {
+	display: none !important;
+}
+
+.header_social li a img {
+	width: 40px;
+}
+
+.header_social {
+	display: flex;
+	gap: 8px;
+}
+
+.header_btn { 
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+/********** End Hedaer Area CSS  *************/ 
+
+/********** Start Banner Area CSS  *************/ 
+
+.banner_area {
+	background: #1A1B24;
+	padding: 62px 0 112px 0;
+}
+
+.banner_text h2 {
+	color: #FFF; 
+	font-size: 62px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 110%;
+	letter-spacing: -2.16px;
+}
+
+.btn_2 {
+	border-radius: 5px;
+	border: 1px solid transparent;
+	color: var(--Surface, #FFF); 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.64px;
+	text-transform: uppercase;
+	padding: 13px 35px;
+	display: inline-block;
+	border-radius: 70px;
+	transition: 0.3s;
+	text-decoration: underline;
+}
+
+.btn_2:hover{
+	color: var(--Surface, #FFF); 
+	border: 1px solid #FFF;
+}
+
+
+.bammer_btnn {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.banner_text p { 
+	margin: 10px 0 25px 0;
+}
+
+.banner_text{
+	position: relative;
+}
+
+.banner_banana img {
+	width: 130px;
+	position: absolute;
+	bottom: 173px;
+	right: 3px;
+	/* left: 0; */
+	margin: 0 auto;
+	width: 94px;
+}
+
+.btn_1 {
+	border-radius: 70px;
+	background: linear-gradient(135deg, #F2B253 0%, #E0724A 53.25%, #E56756 100%);
+	padding: 13px 35px;
+	color: #FFF;  
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: -0.32px;
+	transition: 0.3s;
+}
+
+.btn_1:hover{
+ 	opacity: 0.83;  
+	 color: #FFF;  
+}
+
+.banner_text h4 {  
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 35px;
+	text-transform: uppercase;
+	border-radius: 52px;
+	background: rgba(255, 174, 39, 0.16);
+	color: #F2B253;
+	padding: 0px 24px;
+	display: inline-block;
+	margin: 0;
+}
+
+/********** End Banner Area CSS  *************/ 
+
+/********** Start Feature Area CSS  *************/ 
+
+.feature_title h3 {
+	color: #828282; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 160%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 15px;
+}
+
+.feature_item img {
+	width: 100%;
+	transition: 0.3s;
+}
+
+.feature_item img:hover {
+	transform: scale(1.2);
+}
+
+.feature_item {
+	flex: 0 0 15%;
+}
+
+.featear_area {
+	background: #fff;
+}
+
+
+/********** End Feature Area CSS  *************/  
+
+/********** Start Change Area CSS  *************/ 
+
+.chagne_row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.change_area {
+	position: relative;
+}
+
+.shape_chagne img {
+	width: 200px;
+	position: absolute;
+	bottom: 100px;
+	left: 0;
+	z-index: -1;
+}
+
+.change_left {
+	width: 30%;
+}
+
+.change_left img {
+	width: 100%;
+}
+
+.change_right {
+	width: 68%;
+}
+
+.change_right h3 {
+	color: #010205; 
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 130%;
+	letter-spacing: -1.44px;
+	word-spacing: 11px;
+}
+
+.btn_3 {
+	border-radius: 50px;
+	border: 1px solid var(--GRADIENT, #F2B253);
+	width: 176px;
+	color: #F2B253;
+	padding: 17px 16px;
+	display: inline-block;
+	font-family: 'Manrope', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: -0.32px;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.btn_3:hover{
+	opacity: 0.83; 
+	color: #F2B253;
+}
+
+.change_right p {
+	margin: 30px 0 35px 0;
+}
+
+/********** End Change Area CSS  *************/ 
+
+/********** Start How To Buy Area CSS  *************/ 
+
+.roadmap_area,
+.how_to_buy_area {
+	position: relative;
+	background: #000 ;
+	z-index: 8;
+	margin: 0 15px;
+	border-radius: 30px;
+}
+
+.roadmap_area:after,
+.how_to_buy_area:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0; 
+	background: url(../images/how/bg.png) no-repeat scroll center center / cover; 
+}
+
+.roadmap_main,
+.how_to_main {
+	position: relative;
+	z-index: 9;
+}
+
+.how_to_single span {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	background: var(--MAIN, linear-gradient(135deg, #F2B253 0%, #E0724A 53.25%, #E56756 100%));
+	border-radius: 100%;
+	color: #FFF; 
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto 24px auto;
+	align-items: center;
+}
+
+.how_to_single {
+	border-radius: 10px;
+	border: 0.5px solid #FFF;
+	background: #252733;
+	backdrop-filter: blur(125.5px);
+	text-align: center;
+	padding: 58px 18px;
+	flex: 0 0 32.5%;
+}
+
+.how_to_single h4 {
+	color: #FFF; 
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin: 24px 0;
+}
+
+.how_to_single p {
+	color: #FFF;
+	text-align: center; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.how_to_row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.how_to_pp p {
+	color: #FFF;
+	text-align: center; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px;
+	margin-top: 37px;
+}
+
+
+/********** End How To Buy Area CSS  *************/ 
+/********** Start Map Area CSS  *************/
+
+.maps {
+	display: flex;
+	justify-content: space-between; 
+}
+
+.maps_right{ 
+	flex: 0 0 39%;
+}
+
+.maps_left {
+	flex: 0 0 59%;
+}
+
+.maps_right img {
+	width: 100%;
+}
+
+.maps_left h3 {
+	color: #010205; 
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 130%;
+	letter-spacing: -1.44px;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+.map_text h4 {
+	color: #010205; 
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 27px;
+}
+
+.map_text p {
+	color: #878C91; 
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22.4px;
+}
+
+.map_ul li {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	margin-bottom: 23px;
+}
+
+.map_ul li img {
+	margin-top: 6px;
+	width: 15px
+}
+
+/********** End Map Area CSS  *************/ 
+
+/********** Start Tokenomic CSS  *************/ 
+
+.tokenomic_area {
+	background: #F7F7F7;
+}
+
+.tekenomic {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.token_left img {
+	width: 100%;
+}
+
+.token_left img:hover{
+	transform: scale(1.1);
+}
+
+.token_left {
+	flex: 0 0 36%;
+}
+
+.tokenomic_right {
+	flex: 0 0 56%;
+}
+
+.token_left p {
+	color: #838F9F;
+	text-align: center; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 19px;
+}
+
+.tokenomic_right h3 {
+	color: #010205; 
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 130%;
+	letter-spacing: -1.44px;
+}
+
+.tokenomic_right > p {
+	color: #878C91; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 180%;
+	margin: 30px 0 40px 0;
+}
+
+.token_ul li h4 {
+	color: #1E1E1E; 
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 60px;
+	letter-spacing: -1.92px;
+}
+
+.token_ul p {
+	color: #8896AB; 
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.token_ul p span{ 
+	font-weight: 700; 
+}
+
+.token_ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.token_ul li {
+	flex: 0 0 49%;
+	margin-bottom: 30px;
+}
+
+/********** End Tokenomic CSS  *************/ 
+
+/********** Start Stage CSS  *************/ 
+
+.question_area .section_title h2 ,
+.stage_area .section_title h2 {
+	color: #010205; 
+}
+
+.stage {
+	text-align: center;
+	position: relative;
+}
+
+.stage_item {
+	border-radius: 10px;
+	background: var(--MAIN, linear-gradient(135deg, #F2B253 0%, #E0724A 53.25%, #E56756 100%));
+	padding: 30px 18px;
+	width: 450px;
+	text-align: left;
+	transition: 0.3s;
+}
+
+.stage_item:hover{
+	opacity: 0.83;
+	background: var(--MAIN, linear-gradient(135deg, #a56f1e 0%, #a0573d 53.25%, #d36c5f 100%));
+}
+
+.stage_item p {
+	color: #FFF; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 10px;
+}
+
+.stage_item h5 {
+	color: #FFF;
+	font-family: Plus Jakarta Sans;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.stage_item.stage_item_1 {
+	position: absolute;
+	top: 54px;
+	left: 85px;
+}
+
+.stage_item.stage_item_2 {
+	position: absolute;
+	top: 190px;
+	right: 85px;
+}
+
+.stage_item.stage_item_3 {
+	position: absolute;
+	top: 333px;
+	left: 85px;
+}
+
+.stage_item.stage_item_4 {
+	position: absolute;
+	top: 465px;
+	right: 85px;
+}
+
+.stage_item.stage_item_5 {
+	position: absolute;
+	top: 603px;
+	left: 85px;
+}
+
+.stage_item.stage_item_6 {
+	position: absolute;
+	top: 739px;
+	right: 86px;
+}
+
+.stage_item.stage_item_7 {
+	position: absolute;
+	top: 876px;
+	left: 85px;
+}
+
+.stage_item.stage_item_8 {
+	position: absolute;
+	top: 1012px;
+	right: 85px;
+}
+
+.stage_item.stage_item_9 {
+	position: absolute;
+	top: 1152px;
+	left: 85px;
+}
+
+.stage_item.stage_item_10 {
+	position: absolute;
+	top: 1287px;
+	right: 85px;
+}
+
+
+.stage img {
+	width: 15%;
+}
+
+.stage {
+	margin-bottom: 40px;
+}
+ 
+  .accordion .fa {
+	margin-right: 0.5rem;
+  }
+  .accordion button, .accordion button:hover, .accordion button:focus{
+	text-decoration: none;
+  }
+
+  .faq_question_2 .btn.btn-link.collapsed {
+	border: none;
+	background: none;
+	font-size: 0.98rem;
+	font-weight: 600;
+	width: 100%; 
+	text-align: left;
+	color: #FFF;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 130%;
+	opacity: 0.8799999952316284;
+	font-size: 18px !important;
+}
+
+
+.faq_question_2  .card-header {
+	padding: 40px 15px;
+	margin-bottom: 0;
+	background-color: rgba(0,0,0,.03);  
+}
+
+.faq_question_2 .card {
+	border: none !important;
+	margin-bottom: 10px !important;
+}
+
+.faq_question_2  .btn-link {
+	font-weight: 400;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.faq_question_2 .accordion > .card .card-header { 
+	background: transparent;
+	border: none !important;
+}
+  
+.card-body {
+	/* background: linear-gradient(135deg, #F2B253 0%, #E0724A 53.25%, #E56756 100%); */
+}
+
+
+.card-body p {
+	color: #FFF;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	padding: 0 29px 10px 29px;
+	line-height: normal;
+}
+
+.accordion > .card .card-header { 
+	/* padding-bottom: 0; */
+}
+
+.card { 
+	border-radius: 10px !important;
+	background-color: #252733;
+}
+ 
+
+/********** End Tokenomic CSS  *************/
+
+/********** Start Roadmap CSS  *************/
+
+.roadmap_area{
+	position: relative;
+	background: #000 ;
+	z-index: 8;
+	margin: 0 15px;
+	border-radius: 30px;
+}
+
+.roadmap_area:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0; 
+	background: url(../images/how/bg.png) no-repeat scroll center center / cover; 
+}
+
+.roadmap_main {
+	position: relative;
+	z-index: 9;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 80px;
+}
+
+.roadmap_single {
+	padding: 85px 27px;
+	border-radius: 10px;
+	border: 1px solid var(--STROKE, #FFF);
+	background: #252733;
+	backdrop-filter: blur(125.5px);
+	position: relative;
+	flex: 0 0 47%;
+	margin-bottom: 72px;
+}
+
+.roadmap_single h3 {
+	color: #FFF; 
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+.roadmap_single ul li p {
+	color: #FFF; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+.roadmap_single hr {
+	height: 1px;
+	background: #fff;
+}
+
+.roadmap_single ul li{
+	margin-bottom: 10px;
+}
+
+.roadmap_single ul li span {
+	width: 6px;
+	height: 6px;
+	display: inline-block;
+	background: #fff;
+	border-radius: 100%;
+	margin-right: 9px;
+}
+
+.roadmap_single a {
+	border-radius: 5px;
+	background: var(--MAIN, linear-gradient(135deg, #F2B253 0%, #E0724A 53.25%, #E56756 100%));
+	width: 313px;
+	height: 44px;
+	display: inline-block;
+	color: #FFF;
+	text-align: center;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Plus Jakarta Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: -22px;
+	transition: 0.3s;
+}
+
+.dot_white_1 {
+	position: absolute;
+	top: 158px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.dot_white_2 {
+	position: absolute;
+	top: 384px;
+	right: 300px;
+}
+ 
+.dot_white_3 {
+	position: absolute;
+	bottom: 344px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/********** End Roadmap CSS  *************/ 
+
+/********** Start Question CSS  *************/ 
+
+
+#accordion-container {
+	list-style-type: none;
+	padding: 0; 
+	margin: 30px auto;
+	display: block;
+  }
+  #accordion-item {
+	border-radius: 10px;
+	background: var(--fill, linear-gradient(134deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%));
+	/* vv */
+	backdrop-filter: blur(125.5px);  
+}
+
+#accordion-container .accordion-item {
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background: var(--fill, linear-gradient(134deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%));
+	backdrop-filter: blur(125.5px);
+}
+#accordion-container .opened .accordion-icon {
+	background: transparent;
+}
+   #accordion-container .accordion-item {
+	display: flex;
+	flex-direction: column;
+  }
+   #accordion-container .accordion-item .accordion-head {
+	display: flex;
+  }
+   #accordion-container .accordion-item .accordion-head .accordion-icon {
+	border-radius: 50%;
+	width: 38px;
+	height: 34px;
+	margin-left: 10px;
+	position: relative;
+	align-self: center;
+	display: flex;
+  }
+   #accordion-container .accordion-item .accordion-head .accordion-icon span {
+	display: block;
+	background-color: #fff;
+	width: 15px;
+	height: 2px;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: calc(48% - 15px / 2);
+	transition: transform 0.2s;
+  }
+   #accordion-container .accordion-item .accordion-head .accordion-icon span:nth-of-type(2) {
+	transform: rotate(-90deg);
+  }
+   #accordion-container .accordion-item .accordion-head .accordion-icon span:nth-of-type(2).open-icon {
+	transform: rotate(-180deg);
+  }
+  #accordion-container .accordion-item .accordion-head button {
+	border: none;
+	background: none;
+	font-size: 0.98rem;
+	font-weight: 600;
+	width: 100%;
+	padding: 39px 0 39px 15px;
+	text-align: left;
+}
+   #accordion-container .accordion-item .accordion-head + div {
+	padding: 62px;
+	padding-top: 0;
+	font-family: Ariel, sans-serif;
+	letter-spacing: 0.02rem;
+  }
+   #accordion-container .accordion-item .accordion-head + div #blog-link {
+	background: #6b62ff;
+	border: none;
+	padding: 10px 30px;
+	margin: 15px 0;
+	font-weight: 600;
+	letter-spacing: 0.08rem;
+	border-radius: 32px;
+  }
+   #accordion-container .accordion-item .accordion-head + div #blog-link:hover {
+	cursor: pointer;
+  }
+   #accordion-container .accordion-item .accordion-head + div #blog-link a {
+	color: white;
+	text-decoration: none;
+  }
+   #accordion-container .accordion-item .accordion-head:hover * {
+	cursor: pointer;
+  }
+
+  .accordion-title {
+	color: #FFF; 
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 130%;
+	opacity: 0.8799999952316284;
+	font-size: 18px !important;
+}
+
+.accordion-item p {
+	color: #FFF;	
+	font-family: 'Manrope', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+#accordion-container .accordion-item { 
+	background: #252733;
+}
+
+.accordion-item.active {  
+	border-radius: 10px;
+	background: var(--MAIN, linear-gradient(135deg, #F2B253 0%, #E0724A 53.25%, #E56756 100%)) !important;
+}
+
+#accordion-container .opened ,
+#accordion-container .opened{ 
+	background: var(--MAIN, linear-gradient(135deg, #F2B253 0%, #E0724A 53.25%, #E56756 100%)) !important;
+}
+
+/********** End Question Area CSS  *************/ 
+/********** Start Join CSS  *************/
+
+.join_area {
+	position: relative; 
+	z-index: 8;
+	margin: 0 15px;
+	border-radius: 30px; 
+	background: var(--MAIN, linear-gradient(135deg, #F2B253 0%, #E0724A 53.25%, #E56756 100%));
+ 
+}
+
+.join_area:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0; 
+	background: url(../images/how/bg.png) no-repeat scroll center center / cover; 
+}
+
+.main_join {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: relative;
+	z-index: 99;
+	align-items: center;
+}
+
+.join_left h3 {
+	color: #FFF; 
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 130%;
+	letter-spacing: -1.2px;
+}
+
+.join_left p {
+	color: #FFF; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 180%;
+	margin-top: 24px;
+}
+
+.join_right a {
+	border-radius: 70px;
+	background: #FFF;
+	padding: 16px 32px;
+	color: #010205; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: -0.32px;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.join_right a:hover{
+	opacity: 0.83; 
+}
+
+.join_left {
+	flex: 0 0 65%;
+}
+
+.join_right a i {
+	margin-left: 30px;
+}
+
+/********** End Join CSS  *************/ 
+
+/********** Start Footer CSS  *************/
+
+
+.footer_area {
+	background: #1A1B24;
+	padding-top: 255px;
+	position: relative;
+}
+
+.footer_logo_text{ 
+	font-family: 'Manrope', sans-serif !important;
+	font-weight: 800 !important; 
+}
+
+.join_main_footer {
+	position: absolute;
+	width: 100%;
+	top: -171px;
+}
+
+.question_area {
+	padding-bottom: 255px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 110px;
+}
+
+.footer_logo {
+	flex: 0 0 47%;
+}
+
+.footer_logo p {
+	color: #9B9B9C; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 20px;
+}
+
+.footer_item h4 {
+	color: #FFF; 
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -0.18px;
+	margin-bottom: 40px;
+}
+
+.footer_item ul li a {
+	color: #9B9B9C; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: -0.28px;
+}
+
+.social_footer {
+	display: flex;
+	gap: 12px;
+}
+
+.social_footer li a img:hover{
+	opacity: 0.83;
+}
+
+.footer_main hr {
+	background: #fff;
+	height: 1px;
+}
+
+.footer_copy p {
+	color: #FFF; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 35px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.footer_item ul li {
+	margin-bottom: 10px;
+}
+
+.footer_item ul li a:hover {
+	color: #Ffff;
+}
+
+.social_footer li a img {
+	width: 35px;
+}
+
+
+
+/********** End Footer CSS  *************/ 
+
+ 
+
+
+
+
+
+/* 
+
+	font-family: 'Plus Jakarta Sans', sans-serif;
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* card css  */
+.banner_card {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.monkey_card {
+	width: 528px;
+	border-radius: 20px; 
+	padding: 45px 27px 32px 27px;
+	/* margin: 20px auto;  */
+	border: 1px solid var(--STROKE, #FFF);
+	background: var(--FILL, linear-gradient(107deg, rgba(255, 255, 255, 0.15) 0.76%, rgba(255, 255, 255, 0.00) 100%));
+	backdrop-filter: blur(125.5px);
+}
+
+#countdown ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	gap: 6px;
+}
+
+#countdown ul li {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+#countdown ul li p {
+	color: #FFF;
+	font-size: 40px;
+	font-family: Inter;
+	font-weight: 900;
+	line-height: 28px;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+.count_name {
+	color: #FFF;
+	font-size: 13px;
+	font-family: Inter;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0px;
+}  
+
+
+/* card progress  */
+ 
+
+.bar {
+	position: relative;
+	float: left;
+	height: 100%;
+	background: #E56756;
+}
+.percent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	margin: 0;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 20px;
+}
+
+.img_monkey img {
+	width: 37px;
+}
+
+.fix_img img{
+	width: 50px;
+}
+
+.monkey_progress .progress {
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 20px;
+	background: #E56756;
+}
+ 
+.monekey_info p {
+	color: #FFF;
+	font-size: 13px; 
+	font-weight: 500;
+	line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.monekey_info {
+	margin: 18px 0 30px 0;
+	text-align: center;
+}
+
+.monkey_form_title p {
+	color: #FFF;
+	font-size: 16px; 
+	font-weight: 700;
+	line-height: 28px;
+}
+
+.monkey_form_title span {
+	height: 1px;
+	background: #fff;
+  width: 24%;
+}
+
+.monkey_form_title {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+/* monkey tabs  */
+
+.monekey_button {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.monekey_button li button {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	gap: 8px;
+}
+
+.monekey_button li button {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	gap: 8px;
+	border-radius: 10px;
+	border: 1.5px solid rgba(0, 17, 51, 0.15);
+	background: #FFF;
+	padding: 10px 13px;
+	width: 100%;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.monekey_button li {
+	width: 100%;
+}
+
+.monekey_button li button p {
+	color: #A1A1A1;
+	font-size: 16px; 
+	font-weight: 500;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
+.monekey_button .active p {
+  color: #222223;
+}
+
+.monekey_button .active {
+	color: #222223;
+	border: 1.5px solid #7CC7DC;
+}
+
+.monekey_button li button{
+	transition: 0.3s;
+}
+
+.monekey_button li button:hover {
+	opacity: 0.83;
+}
+
+.from_input {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background: #fff;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	border-radius: 8px;
+	margin-bottom: 25px;
+	height: 72px;
+}
+
+.from_input img {
+	/* border-left: 1px solid #ddd; */ 
+}
+
+.form_group{
+  margin-left: 16px;
+  width: 100%;
+}
+
+.form_group input {
+	color: var(--black, #222223);
+	font-size: 20px; 
+	font-weight: 800;
+	line-height: 27px;
+	width: 90%;
+	border: none;
+}
+
+.form_group label {
+	color: rgba(0, 17, 51, 0.60);
+	font-size: 14px;
+	font-family: Inter;
+	line-height: 20px;
+}
+
+.img_monkey {
+	width: 167px;
+	border-left: 1px solid #ddd;
+	height: 72px;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.form_submit_btn button {
+	color: var(--main, #fff);
+	text-align: center;
+	font-size: 16px;
+	font-family: Inter;
+	font-weight: 800;
+	line-height: 16px;
+	height: 66px;
+	width: 100%;
+	border-radius: 7px;
+	background: var(--MAIN, linear-gradient(135deg, #F2B253 0%, #E0724A 53.25%, #E56756 100%)); 
+	border: none;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.form_submit_btn button:hover{
+  opacity: 0.80;
+}
+
+.monkey_footer a {
+	color: #FFF; 
+	font-size: 14px;
+	font-family: Inter;
+	font-weight: 500;
+}
+
+.monkey_footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	gap: 5px;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 25px;
+}
+
+.monkey_form{
+  display: none;
+}
+
+.USDT{
+  display: block;
+}
+
+
+ 
+

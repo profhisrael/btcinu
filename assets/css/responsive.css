@@ -1,0 +1,694 @@
+ 
+ @media all and (max-width:1400px){
+    .first_roadmap { 
+        top: 48px; 
+        left: 70px;
+    }
+    .single_stage ul li p { 
+        font-size: 14px; 
+        line-height: 31px; 
+    }
+    .single_stage h4 { 
+        font-size: 17px; 
+    }
+    .second_roadmap { 
+        top: 236px;
+        right: 232px;
+    }
+    .third_roadmap { 
+        top: 429px;
+        left: 70px;
+    }
+    .last_roadmap { 
+        top: 609px;
+        right: 232px;
+    }
+    #roadmap > img { 
+        width: 130px;
+        bottom: -37px;
+    }
+    .share_img img {
+        width: 491px; 
+    }
+    .share_box { 
+        padding: 61px 60px; 
+    }
+    .adevnture_left h2, .banner_text h2 {
+        font-size: 60px;
+        margin-top: 8px;
+    }
+    .adventure_img img { 
+        bottom: -132px; 
+        width: 322px;
+    }
+ }  
+ @media all and (max-width:1200px){
+    .roadmap_single.roadmap_single1 { 
+        left: 555px; 
+    }
+    .roadmap_single.roadmap_single2 { 
+        right: 555px; 
+    }
+    .roadmap_single.roadmap_single3 { 
+        left: 555px; 
+    }
+    .roadmap_single {
+        width: 328px; 
+    }
+    .adventure_single { 
+        height: auto;
+    }  
+    .stage_item {
+        position: unset !important;
+        text-align: center;
+    }
+    .stage {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+    }
+    .stage img {
+        width: 15%;
+        display: none;
+    }
+ } 
+ @media all and (min-width:991px){
+    .menu {
+        display: block !important;
+    }
+ }
+ @media all and (max-width:991px){
+    .mobile_hide{
+        display: none;
+    }
+    .shape_chagne img { 
+        display: none;
+    }
+    .roadmap_single a {
+        width: 225px; 
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .dot_white_2 { 
+        top: 352px;
+        right: 213px;
+    }
+    .change_right {
+        width: 100%;
+        text-align: center;
+    }
+    .chagne_row { 
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header_social {
+        flex-direction: row !important;
+        justify-content: center;
+    }
+    .monkey_card { 
+        margin: 20px auto; 
+    }
+    .banner_text h4 { 
+        margin-bottom: 20px;
+    }
+    .form_submit_btn button { 
+        font-size: 14px; 
+        height: 55px; 
+    }
+    .single_stage h4 { 
+        margin-bottom: 0px;
+    }
+    .share_img {
+        margin-top: 30px;
+    }
+    .share_img img { 
+        position: inherit; 
+    }
+    .share_img img {
+        width: 100%;
+    }
+    .copy_text {  
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .pattern_2 ,
+    .pattern_1 { 
+        width: 110px;
+    }
+    .roadmap_single ul li p { 
+        font-size: 13px; 
+        line-height: 20px;
+    }
+    .first_roadmap {
+        top: 25px;
+        left: 50px;
+    }
+    .second_roadmap {
+        top: 143px;
+        right: 11px;
+    }
+    .faq .faq-list a { 
+        font-size: 20px; 
+    }
+    .third_roadmap {
+        top: 258px;
+        left: 50px;
+    }
+    .last_roadmap {
+        top: 367px;
+        right: 11px;
+    }
+    #tokenomics > img { 
+        width: 250px;
+    }
+    .adevnture_left h2, .banner_text h2 { 
+        font-size: 40px; 
+    }
+    .adventure_img img { 
+        bottom: -70px;
+        left: 191px;
+        width: 219px;
+    }
+    .adventure_right {
+        margin-top: 100px;
+    }
+    .banner_banana img { 
+        position: inherit;
+        margin-top: 20px;
+    }
+    .section_title.step_title h2 {
+        font-size: 45px;
+    }
+    
+    .menu_btn {
+        width: 221px;
+        margin: 24px auto 0 auto;
+        text-align: center;
+    }
+    .desktop_hide{
+        display: block;
+    }
+    .bars_menu {
+        display: block !important;
+    }
+    .menu{
+        display: none;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        width: 100%;
+        background: #000;
+        left: 0;
+        top: 120px;
+        padding: 25px 0;
+        z-index: 9;
+    }
+    .menu ul { 
+        flex-direction: column; 
+        gap: 10px;
+    }  
+    .bammer_btnn { 
+        justify-content: center;
+        margin: 30px 0;
+    }
+    .about_area .row { 
+        flex-direction: column-reverse;
+    }
+    .about_img img {
+        width: 100%; 
+        margin-bottom: 25px;
+    }
+    .banner_text {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .banner_text h2 {
+        font-size: 45px;
+        max-width: 100%;
+    }
+    .feather_logo { 
+        flex: 0 0 25%; 
+    }
+    .section_title h2 { 
+        font-size: 45px; 
+    }
+    .about_left h3 { 
+        font-size: 36px; 
+    }
+    .tokenomics_img img {
+        width: 100%;
+    }
+    .dot2,
+    .dot3,
+    .dot1 { 
+        display: none;
+    }
+    .single-stage h4 { 
+        font-size: 22px; 
+    }
+    .why_choose_single ul li p { 
+        font-size: 18px; 
+    }
+    .share_text h2 { 
+        font-size: 45px; 
+    }
+    .footer_menu {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .footer_menu a {
+        margin-bottom: 15px !important;
+    }
+    .footer_left {
+        text-align: center;
+    }
+    .header_social ul { 
+        justify-content: center;
+        margin: 20px 0 0 0;
+    }
+    .header_social {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .footer_short { 
+        text-align: center;
+    }
+    .choose_area {
+        padding: 0 0 20px 0; 
+    }
+ }
+ @media all and (max-width:767px){
+    .section_padding {
+        padding: 50px 0;
+    } 
+    .monekey_info p { 
+        font-size: 16px; 
+    }
+    .footer_area { 
+        margin-top: 140px;
+    }
+    .footer { 
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_logo .logo { 
+        justify-content: center;
+    }
+    .footer_logo p { 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer_item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer_item h4 { 
+        margin-bottom: 8px;
+    }
+    .footer_item ul {
+        margin-bottom: 28px;
+    }
+    .social_footer { 
+        justify-content: center;
+    }
+    .footer { 
+        padding-bottom: 20px;
+    }
+    .footer_area { 
+        padding-top: 180px; 
+    }
+    .join_left h3 { 
+        font-size: 20px; 
+    }
+    .main_join { 
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .stage_item h5 { 
+        font-size: 18px; 
+    }
+    .stage_item p { 
+        font-size: 14px;  
+    }
+    .how_to_single { 
+        padding: 30px 18px; 
+    }
+    .tekenomic { 
+        flex-direction: column;
+        gap: 20px;
+    }
+    .how_to_single h4 { 
+        font-size: 20px; 
+    }
+    .maps {  
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .maps_left h3 { 
+        font-size: 30px; 
+    }
+    .map_text p { 
+        font-size: 14px; 
+    }
+    .map_text h4 { 
+        font-size: 16px; 
+    }
+    .how_to_single { 
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    .change_right h3 { 
+        font-size: 28px; 
+        line-height: 137%; 
+    } 
+    .feature_item {
+        flex: 0 0 28%;
+    }
+    .adevnture_left h2, .banner_text h2 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+    .roadmapd img { 
+        display: none;
+    }
+    .step_single h3 { 
+        font-size: 20px; 
+    }
+    .logo a span { 
+        font-size: 20px; 
+    }
+    
+    .step_single p { 
+        margin-top: 4px;
+    }
+    .roadmapd {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    .section_title.step_title p { 
+        font-size: 14px; 
+        line-height: 23px; 
+    }
+    .roadmap_single h4 { 
+        font-size: 20px; 
+    }
+    #accordion-container .accordion-item .accordion-head button {  
+        padding: 25px 0 25px 15px; 
+    }
+    .accordion-title { 
+        font-size: 16px !important; 
+    }
+    #roadmap > img { 
+        display: none;
+    }
+    .dot_white_1,
+    .dot_white_3,
+    .dot_white_2 { 
+        display: none;
+    }
+    .roadmap_single {
+        flex: 0 0 100%;
+    }
+    .share_text h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .section_title.step_title h2 {
+        font-size: 30px;
+    }
+    .step_single { 
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .about_img video { 
+        margin-bottom: 15px;
+    }
+    .buy_single { 
+        margin-bottom: 25px;
+    }
+    .buy_area .row { 
+        gap: 15px;
+    }
+    .roadmap_single {
+        width: 200px;
+    }
+    .roadmap_single.roadmap_single1 {
+        left: 334px;
+    }
+    .roadmap_single.roadmap_single2 {
+        right: 334px;
+    }
+    .roadmap_single.roadmap_single3 {
+        left: 334px;
+    }
+    .why_choose_single { 
+        margin-bottom: 50px;
+    }
+    .share_text {
+        text-align: center;
+    }
+    .share_text h2 { 
+        margin-bottom: 0;
+    }
+
+
+ }
+ @media all and (max-width:575px){
+    .monkey_card{
+        width: 100% ;
+    }
+    .banner_text h2 { 
+        width: 283px;
+        word-spacing: 7px;
+        margin: 0 auto;
+    }
+    .banner_area .row {
+        flex-direction: column-reverse;
+    }
+    .tokenomic_right h3 { 
+        font-size: 35px; 
+    }
+    .token_ul p { 
+        font-size: 16px;  
+        line-height: 22px;
+    }
+    .tokenomic_right > p { 
+        font-size: 14px; 
+        margin: 10px 0 15px 0;
+    }
+    .token_ul li h4 { 
+        font-size: 35px; 
+    }
+    .maps_left h3 {
+        font-size: 26px;
+    }
+    .btn_3 { 
+        width: 157px; 
+        padding: 12px 16px; 
+        font-size: 14px; 
+    }
+    .change_right h3 {
+        font-size: 22px;
+        line-height: 137%;
+    }
+    .feature_title h3 { 
+        font-size: 18px; 
+        margin-bottom: 29px;
+    }
+    .adventure_single h4 { 
+        font-size: 18px; 
+    }
+    .tokenomics_area { 
+        padding: 35px 0 200px 0; 
+    }
+    .step_area {
+        padding: 40px 0; 
+    }
+    .adventure_area {
+        background: rgba(124, 199, 220, 0.10);
+        padding: 40px 0 30px 0;
+    }
+    .percent { 
+        left: 35%; 
+    }
+    .monekey_button li button p { 
+        font-size: 14px;  
+    }
+    .monekey_button { 
+        overflow-x: scroll;
+    }
+    .monkey_form_title p {  
+        font-size: 14px; 
+    }
+    .monkey_form_title span { 
+        width: 20%;
+    }
+    .monekey_button li button img {
+        width: 15px;
+    }
+    .monekey_button li button { 
+        padding: 8px 5px; 
+    }
+    .banner_text h2 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .btn_2 {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .section_title.step_title h4 { 
+        font-size: 14px; 
+    }
+    .faq .faq-list p { 
+        font-size: 14px; 
+        line-height: 24px; 
+    }
+    .faq .faq-list a {
+        font-size: 18px;
+    }
+    .share_box {
+        padding: 38px 28px;
+    }
+    .footer h3 { 
+        font-size: 29px; 
+    }
+    p { 
+        font-size: 14px; 
+        line-height: 22px; 
+    }
+    .banner_text p {
+        margin: 10px 0 0 0;
+    }
+    .feather_logo { 
+        margin-bottom: 25px;
+    }
+    .about_left p {
+        margin: 5px 0 0 0;
+    }
+    .btn_1 { 
+        padding: 10px 20px; 
+        font-size: 14px; 
+    }
+    .section_title h2 {
+        font-size: 32px;
+    }
+    .buy_single h4 { 
+        font-size: 23px; 
+    }
+    .buy_single p { 
+        font-size: 14px; 
+        line-height: 24px;
+    } 
+    .roadmap_text h3, .roadmap_single h3 { 
+        font-size: 20px; 
+    }
+    .roadmap_text p, .roadmap_single p { 
+        font-size: 14px; 
+    }
+    .roadmap_single.roadmap_single1 {
+        left: 292px;
+    }
+    .roadmap_single.roadmap_single2 {
+        right: 292px;
+    }
+    .roadmap_single.roadmap_single3 {
+        left: 292px;
+    }
+    .roadmap_single {
+        width: 144px;
+    }
+    .single-stage h4 {
+        font-size: 20px;
+    }
+    .single-stage ul li p { 
+        font-size: 14px; 
+        line-height: 20px;
+    }
+    .stage_btn {
+        width: 213px;
+        height: 44px; 
+        font-size: 14px; 
+    }
+    .why_choose_single ul li p {
+        font-size: 14px;
+    }
+    .why_choose_single ul li img {
+        width: 20px;
+    }
+    .share_text h2 {
+        font-size: 25px;
+    }
+    .about_left h3 {
+        font-size: 28px;
+    }
+    .single-stage { 
+        margin-bottom: 0px; 
+    }
+    .share_area {
+        padding: 0 0 50px 0; ;
+    }
+} 
+@media all and (max-width:450px){
+    .roadmap_single {
+        flex: 0 0 100%; 
+    }
+    .change_right h3 {  
+        word-spacing: 10px;
+    } 
+    .footer_area {
+        padding-top: 270px;
+    }
+    .tokenomic_right h3 {
+        font-size: 28px;
+    }
+    .token_ul li h4 {
+        font-size: 26px;
+        line-height: 45px;
+    }
+    .adventure_img img {
+        bottom: -86px;
+        left: 139px;
+        width: 219px;
+    }
+    .percent { 
+        width: 117px;
+    }
+} 
+@media all and (max-width:390px){
+    .roadmap_text p, .roadmap_single p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .feature_item {
+        flex: 0 0 45%;
+    }
+    .roadmap_text h3, .roadmap_single h3 {
+        font-size: 16px;
+    }
+    .roadmap_single {
+        width: 90px;
+    }
+    .roadmap_single.roadmap_single1 {
+        left: 239px;
+    }
+    .roadmap_single.roadmap_single3 {
+        left: 239px;
+    }
+}

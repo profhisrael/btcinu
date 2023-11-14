@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bitcoin Inu - Website </title>
+    <!--Required meta tag-->
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet"> 
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+ 
+</head>
+
+<body>
+
+  <!-- **************** Start Header Area **********************  -->
+  <header class="header_area_main" id="header_areaa">
+    <div class="container">
+      <div class="header_box">
+        <div class="logo">
+          <a href="#">
+            <img src="assets/images/logo.png" alt="">
+            <span>Bitcoin Inu</span>
+          </a>
+          <a class="bars_menu" href="#"><i class="fas fa-bars"></i></a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="#presale_stage">Presale Stages</a></li>
+            <li><a href="#Tokenomics">Tokenomics</a></li>
+            <li><a href="#Roadmap">Roadmap</a></li> 
+            <li><a href="#faq">FAQ's</a></li> 
+          </ul> 
+          <div class="menu_btn desktop_hide"> 
+            <ul class="header_social">
+              <li><a href="#"><img src="assets/images/header/x.png" alt=""></a></li>
+              <li><a href="#"><img src="assets/images/header/teligram.png" alt=""></a></li>
+            </ul>
+            <a href="#" class="btn_1 ">Connect Wallet</a>
+          </div>
+        </div>
+        <div class="header_btn mobile_hide"> 
+          <ul class="header_social">
+            <li><a href="#"><img src="assets/images/header/x.png" alt=""></a></li>
+            <li><a href="#"><img src="assets/images/header/teligram.png" alt=""></a></li>
+          </ul>
+          <a href="#" class="btn_1">Connect Wallet</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- **************** End Header Area  *********************** -->
+
+  <!-- **************** Start Banner Area **********************  -->
+  <section class="banner_area">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6"> 
+          <div class="banner_text">
+            <h4>BUY NOW BEFORE IT'S TO LATE</h4>
+            <h2> YOU WANT BTC 2.0? YOU GET BTC 2.0! HERE IS BTCINU!</h2>
+            <p>The number one cryptocurrency, with more than 50% dominance will now enter the Memecoin world to show its strengt! BTCINU aims to be the number one Memecoin, over DOGECOIN, SHIB and PEPE!</p>
+            <!-- <button class="btn_1">TAKE A DIVE</button> -->
+            <div class="bammer_btnn">
+              <a href="#" class="btn_1">Whitepaper &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#Tokenomics" class="btn_2 tokenomics_scroll">Tokenomics</a>
+            </div>
+            <div class="banner_banana">
+              <img src="assets/images/banner/bticoin.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6"> 
+          <div class="banner_card" >
+            <div class="monkey_card">
+              <div class="monkey_countdown">
+                  <div id="countdown">
+                      <ul>
+                        <li><p><span id="days"></span> <br> <span class="count_name">DAYS</span></p></li>
+                        <li><p>:</p></li>
+                        <li><p><span id="hours"></span> <br> <span class="count_name">HOURS</span></p></li>
+                        <li><p>:</p></li>
+                        <li><p><span id="minutes"></span> <br> <span class="count_name">MINUTES</span></p></li>
+                        <li><p>:</p></li>
+                        <li><p><span id="seconds"></span> <br> <span class="count_name">SECONDS</span></p></li>  
+                      </ul>  
+                    </div>
+              </div>
+              <div class="monkey_progress">
+                <div class="progress">
+                  <div class="bar" style="width:65%"> 
+                  </div>
+                </div>
+              </div>
+              <div class="monekey_info">
+                <p>USDT raised: $5,272,622/$5,700,00</p>
+                <p>Listing Price: $0.06</p>
+              </div>
+              <div class="monkey_form_title">
+                <span></span>
+                <p>1 BTCINU = $0.011</p>
+                <span></span>
+              </div>
+              <div class="monekey_tabs">
+                <ul class="monekey_button">
+                  <li><button  class="active" id="USDT"><img src="assets/images/2.svg" alt=""><p>USDT</p></button></li> 
+                  <li><button id="ETH"><img src="assets/images/1.svg" alt=""><p>ETH</p></button></li>
+                </ul>
+                <div class="monkey_tabs_content"> 
+                    <div class="monkey_form ETH"> 
+                        <div class="from_input">
+                          <div class="form_group"> 
+                            <label for="">Amount in ETH</label>
+                            <input type="text" value="0">
+                          </div>
+                          <!-- <img src="assets/images/form/1.svg" alt=""> -->
+                          <div class="img_monkey"><img src="assets/images/form/new/usd.svg" alt=""></div>
+                        </div> 
+                        <div class="from_input">
+                          <div class="form_group"> 
+                            <label for="">Amount in BTCINU</label>
+                            <input type="text" value="0">
+                          </div>
+                          <div class="img_monkey fix_img"><img src="assets/images/logo.png" alt=""></div>
+                        </div> 
+      
+                        <div class="form_submit_btn">
+                          <button >CONNECT WALLET</button>
+                        </div>
+                    </div> 
+                    <div class="monkey_form USDT"> 
+                        <div class="from_input">
+                          <div class="form_group"> 
+                            <label for="">Amount in USDT</label>
+                            <input type="text" value="0">
+                          </div>
+                          <div class="img_monkey"><img src="assets/images/form/new/eth.svg" alt=""></div>
+                        </div> 
+                        <div class="from_input">
+                          <div class="form_group"> 
+                            <label for="">Amount in BTCINU</label>
+                            <input type="text" value="0">
+                          </div>
+                          <div class="img_monkey fix_img"><img src="assets/images/logo.png" alt=""></div>
+                        </div> 
+      
+                        <div class="form_submit_btn">
+                          <button >CONNECT WALLET</button>
+                        </div>
+                    </div>  
+      
+      
+                </div>
+              </div> 
+              <div class="monkey_footer">
+                <img src="assets/images/svg.svg" alt=""> 
+                <a href="#how_to_buy">How to Buy</a>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- **************** End Banner Area  *********************** -->
+  
+  <!-- **************** Start Feature Area  *********************** -->
+  <section class="featear_area section_padding" >
+    <div class="container"> 
+        <div class="feature_title">
+          <h3>FEATURED IN</h3>
+        </div>
+        <div class="features">
+          <div class="feature_item">
+            <img src="assets/images/feature/1.png" alt="">
+          </div>
+          <div class="feature_item">
+            <img src="assets/images/feature/2.png" alt="">
+          </div>
+          <div class="feature_item">
+            <img src="assets/images/feature/3.png" alt="">
+          </div>
+          <div class="feature_item">
+            <img src="assets/images/feature/4.png" alt="">
+          </div>
+          <div class="feature_item">
+            <img src="assets/images/feature/5.png" alt="">
+          </div>
+          <div class="feature_item">
+            <img src="assets/images/feature/6.png" alt="">
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- **************** End Feature Area  *********************** --> 
+
+  <!-- **************** Start Change Area  *********************** --> 
+  <section class="change_area section_padding">
+    <div class="container">
+      <div class="chagne_row">
+        <div class="change_left"  >
+          <img src="assets/images/change/change.png" alt="">
+        </div>
+        <div class="change_right" >
+          <h3>THIS IS WHY BTCINU WILL CHANGE THE WORLD OF MEMECOINS!</h3>
+          <p>BTCINU brings you the new dimension of Memecoins! This is the modern solution to make gains with Memecoins fast and easy. After a long and intensive research, the team is determined that BTCINU is able to combine BTC and SHIB into one concentrated MEMECOIN with ENORMOUS POTENTIAL! Thanks to the high level of awareness and acceptance of Bitcoin and the massive flood of new Memecoin investors through Shiba Inu, BTCINU can combine the strenghts of both predecessors and ATTRACT new investors.</p>
+          <a  href="#Tokenomics" class="btn_3 tokenomics_scroll">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="shape_chagne">
+      <img src="assets/images/change/shape.png" alt="">
+    </div>
+  </section>
+  <!-- **************** End Change Area  *********************** --> 
+
+  <!-- **************** Start How To Buy Area  *********************** -->
+  <section class="how_to_buy_area section_padding" id="how_to_buy">
+    <div class="how_to_but_bg">
+      <div class="container">
+        <div class="how_to_main">
+          <div class="section_title">
+            <h2>BUY BTCINU SAFE & EASY</h2>
+            <p>3 steps, 5 minutes and many gains!</p>
+          </div>
+          <div class="how_to_row">
+            <div class="how_to_single"  >
+              <span>1</span>
+              <h4>Connect Wallet</h4>
+              <p>Use a decentralized wallet, such as MetaMask, Trust Wallet and more to connect it via the Ethereum Network to this panel. Make sure it’s the account with ETH or USDT for the purchase and some ETH for the fees on it.</p>
+            </div>
+            <div class="how_to_single" >
+              <span>2</span>
+              <h4>Choose Amount</h4>
+              <p>Enter the amount of USDT or ETH you want to invest into $BTCINU and let the website display how many tokens you’ll receive!</p>
+            </div>
+            <div class="how_to_single" >
+              <span>3</span>
+              <h4>Here you go</h4>
+              <p>Click on “Buy“ and approve in your wallet. If it does not work, try the in-app browser of your Wallet. You will be able to claim your token on this website when the presale is over!</p>
+            </div>
+          </div>
+          <div class="how_to_pp">
+            <p>Note: EVERY other website, address or payment method is 100% scam. ANYONE trying to help you is a scammer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- **************** End How To Buy  Area  *********************** --> 
+
+  <!-- **************** Start Map  Area  *********************** -->
+  <section class="map_area section_padding">
+    <div class="container">
+      <div class="maps">
+        <div class="maps_left"  >
+          <h3>The Bitcoin INU UNIQUE Solution</h3>
+          <ul class="map_ul">
+            <li><img src="assets/images/map/check.png" alt="Check Image">
+              <div class="map_text">
+                <h4>EASY ACCESS WORLDWIDE</h4>
+                <p>Faster than Bitcoin and available everywhere, BTCINU delivers a modern solution for many blockchain problems.</p>
+              </div>
+            </li>
+            <li><img src="assets/images/map/check.png" alt="Check Image">
+              <div class="map_text">
+                <h4>INSTANT GAINS</h4>
+                <p>The Presale prices are much lower than the launch price, early Presale investors have assured profits at launch date.</p>
+              </div>
+            </li>
+            <li><img src="assets/images/map/check.png" alt="Check Image">
+              <div class="map_text">
+                <h4>Incredible trend potential</h4>
+                <p>Since BTCINU delivers an unique and single idea of bringing the giant BTC into a whole new space, BTCINU might repeat the SHIB price chart!</p>
+              </div>
+            </li>
+            <li><img src="assets/images/map/check.png" alt="Check Image">
+              <div class="map_text">
+                <h4>NO LIMITS</h4>
+                <p>Since the presale is hardcapped to an extremely low MarketCap, there is a huge growth potential in BTCINU after launch.</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+        <div class="maps_right"  >
+          <img src="assets/images/map/maps.png" alt="Maps">
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- **************** End Map  Area  *********************** --> 
+
+  <!-- **************** Start Tokenomic Area  *********************** --> 
+  <section class="tokenomic_area section_padding" id="Tokenomics">
+    <div class="container">
+      <div class="tekenomic">
+        <div class="token_left"  >
+          <img src="assets/images/tokenomic/1.png" alt="">
+          <p>The tokenomics are flexible and independent of the presale sellout. In this case, the tokenomics will be cut down as a percentage in favor of current investors!</p>
+        </div>
+
+        <!-- RIGHT SIDE START HERE -->
+        <div class="tokenomic_right" >
+          <h3>TOKENOMICS</h3>
+          <p>The tokenomics of BTCINU are deeply researched and inspired by successful methods. Thus they aim for the maximum growth and minimum limits at every time and phase.</p>
+          <ul class="token_ul">
+            <li>
+              <h4>69.0%</h4>
+              <p><span>Presale</span> <br> (14.490.000 BTCINU)</p>
+            </li>
+            <li>
+              <h4>20.0%</h4>
+              <p><span>CEX&DEX Liquidity</span>  <br>  (4.200.000 BTCINU)</p>
+            </li>
+            <li>
+              <h4>10.0%</h4>
+              <p><span>Marketing</span> <br> (2.100.000 BTCINU)</p>
+            </li>
+            <li>
+              <h4>1.0%</h4>
+              <p><span>Team</span> <br> (210.000 BTCINU)</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- **************** End Tokenomic Area  *********************** --> 
+
+  <!-- **************** Start Stage Area  *********************** --> 
+  <section class="stage_area section_padding" id="presale_stage">
+    <div class="container">
+      <div class="section_title">
+        <h2>Presale Stages</h2>
+        <p>Based on our professional research of the crypto market, the following goals emerge on our journey to become the greatest Memecoin.</p>
+      </div>
+      <div class="stage">
+        <img src="assets/images/stage/stage.png" alt="">
+        <div class="stage_item stage_item_1" data-aos="fade-right">
+          <h5>Stage 1</h5>
+          <p>Price : $0.037671</p>
+        </div>
+        <div class="stage_item stage_item_2"  data-aos="fade-left">
+          <h5>Stage 2</h5>
+          <p>Price : $0.041</p>
+        </div>
+        <div class="stage_item stage_item_3" data-aos="fade-right">
+          <h5>Stage 3</h5>
+          <p>Price : $0.043</p>
+        </div>
+        <div class="stage_item stage_item_4"  data-aos="fade-left">
+          <h5>Stage 4</h5>
+          <p>Price : $0.045</p>
+        </div>
+        <div class="stage_item stage_item_5"  data-aos="fade-right">
+          <h5>Stage 5</h5>
+          <p>Price : $0.047</p>
+        </div>
+        <div class="stage_item stage_item_6"  data-aos="fade-left">
+          <h5>Stage 6</h5>
+          <p>Price : $0.049</p>
+        </div>
+        <div class="stage_item stage_item_7"  data-aos="fade-right">
+          <h5>Stage 7</h5>
+          <p>Price : $0.051</p>
+        </div>
+        <div class="stage_item stage_item_8" data-aos="fade-left">
+          <h5>Stage 8</h5>
+          <p>Price : $0.053</p>
+        </div>
+        <div class="stage_item stage_item_9"  data-aos="fade-right">
+          <h5>Stage 9</h5>
+          <p>Price : $0.055</p>
+        </div>
+        <div class="stage_item stage_item_10" data-aos="fade-left">
+          <h5>Stage 10</h5>
+          <p>Price : $0.06</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- **************** End Stage Area  *********************** --> 
+
+  <!-- **************** Start Roadmap Area  *********************** --> 
+  <section class="roadmap_area section_padding" id="Roadmap">
+    <div class="container">
+      <div class="section_title">
+        <h2>ROADMAP</h2>
+        <P>For the coming months we are pursuing to reach the milestones and goals listed in the Roadmap below.</P>
+      </div>
+      <div class="roadmap_main">
+          <div class="dot_white_1">
+            <img src="assets/images/roadmap/line1.png" alt="">
+          </div>
+          <div class="dot_white_2">
+            <img src="assets/images/roadmap/line2.png" alt="">
+          </div>
+          <div class="dot_white_3">
+            <img src="assets/images/roadmap/line1.png" alt="">
+          </div>
+          <!-- single roadmap  -->
+          <div class="roadmap_single"  >
+            <a href="#">PHASE 1</a>
+            <h3>Q3 2023</h3>
+            <hr>
+            <ul>
+              <li><p><span></span>Intensive Market Research</p></li>
+              <li><p><span></span>Token Development</p></li>
+              <li><p><span></span>Website Development</p></li>
+              <li><p><span></span>Advanced Marketing Research</p></li>
+            </ul>
+          </div>
+          <!-- single roadmap  -->
+          <div class="roadmap_single"  >
+            <a href="#">PHASE 2</a>
+            <h3>Q4 2023</h3>
+            <hr>
+            <ul>
+              <li><p><span></span>Presale Start</p></li>
+              <li><p><span></span>Marketing Campaign</p></li>
+              <li><p><span></span>Social Media Campaign</p></li>
+              <li><p><span></span>Community Events</p></li>
+            </ul>
+          </div>
+          <!-- single roadmap  -->
+          <div class="roadmap_single" >
+            <a href="#">PHASE 4</a>
+            <h3>Q2 2024</h3>
+            <hr>
+            <ul>
+              <li><p><span></span>Continued Marketing</p></li>
+              <li><p><span></span>CEX Listing</p></li>
+              <li><p><span></span>Add Token Utility</p></li>
+              <li><p><span></span>Community Engagement</p></li>
+            </ul>
+          </div>
+          <!-- single roadmap  -->
+          <div class="roadmap_single"  >
+            <a href="#">PHASE 3</a>
+            <h3>Q1 2024</h3>
+            <hr>
+            <ul>
+              <li><p><span></span>Potential Token Burn (based on presale results)</p></li>
+              <li><p><span></span>Presale Token Claim</p></li>
+              <li><p><span></span>CMC Listing</p></li>
+              <li><p><span></span>Partnerships</p></li>
+              <li><p><span></span>DEX LISTING</p></li>
+            </ul>
+          </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- **************** End Roadmap Area  *********************** --> 
+
+  <!-- **************** Start Question Area  *********************** --> 
+  <section class="question_area section_padding" id="faq">
+    <div class="container">
+      <div class="section_title">
+        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        <P>To clarify common understanding questions, here is a list of questions and answers of the most frequently asked questions to our team.</P>
+      </div>
+      <div class="question">
+      <div class="demo faq_question_2">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button type="button" class="btn btn-link collapsed"  data-toggle="collapse" data-target="#collapseOne"><i class="fa fa-plus"></i> What is BTCINU?</button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>BTCINU is a news Memecoin which leads the crypto industry into a new era of Memecoins! You don’t believe it? Check out the Whitepaper to get more insights about the Solutions of BTCINU.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button type="button" class="btn btn-link show_colups" data-toggle="collapse" data-target="#collapseTwo"><i class="fa fa-plus"></i>Why should I buy BTCINU?</button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>BTCINU is a news Memecoin which leads the crypto industry into a new era of Memecoins! You don’t believe it? Check out the Whitepaper to get more insights about the Solutions of BTCINU.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"><i class="fa fa-plus"></i>Where can I buy BTCINU?</button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>BTCINU is a news Memecoin which leads the crypto industry into a new era of Memecoins! You don’t believe it? Check out the Whitepaper to get more insights about the Solutions of BTCINU.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"><i class="fa fa-plus"></i>How do I stay up to date?</button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>BTCINU is a news Memecoin which leads the crypto industry into a new era of Memecoins! You don’t believe it? Check out the Whitepaper to get more insights about the Solutions of BTCINU.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h2 class="mb-0">
+                <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"><i class="fa fa-plus"></i>How can I contact the support?</button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>BTCINU is a news Memecoin which leads the crypto industry into a new era of Memecoins! You don’t believe it? Check out the Whitepaper to get more insights about the Solutions of BTCINU.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- **************** End Question Area  *********************** -->
+ 
+
+  <!-- **************** Start Footer Area  *********************** --> 
+  <footer class="footer_area">
+    <div class="join_main_footer">
+      <div class="join_area section_padding"  >
+        <div class="container">
+          <div class="main_join">
+            <div class="join_left">
+              <h3>READY TO JOIN THE BTC INU COMMUNITY?</h3>
+              <p>The bigger our community, the more gains are to be made. Become a part of the revolutionizing BTCINU Memecoin and join our telegram community group right now!</p>
+            </div>
+            <div class="join_right">
+              <a href="#">Join Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer_main">
+        <div class="footer" >
+          <div class="footer_logo">
+            <div class="logo">
+              <a href="#">
+                <img src="assets/images/logo.png" alt="">
+                <span class="footer_logo_text">Bitcoin Inu</span>
+              </a> 
+            </div>
+            <p>Disclaimer: Cryptocurrency may be unregulated in your jurisdiction. The value of cryptocurrencies may go down as well as up. Profits may be subject to capital gains or other taxes applicable in your jurisdiction.</p>
+          </div>
+          <div class="footer_item">
+            <h4>Quick links</h4>
+            <ul>
+              <li><a href="#">Roadmap</a></li>
+              <li><a href="#">How to buy</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Tokenomics</a></li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h4>Company</h4>
+            <ul> 
+              <li><a href="#">Privacy Policy</a></li> 
+              <li><a href="#">Terms & Conditions</a></li> 
+              <li><a href="#">Cookies</a></li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h4>Get in touch</h4>
+            <ul class="social_footer"> 
+              <li><a href="#"><img src="assets/images/header/x.png" alt=""></a></li>
+              <li><a href="#"><img src="assets/images/header/teligram.png" alt=""></a></li>
+            </ul>
+            <ul>  
+              <li><a href="mailto:contact@bitcoininu.io">contact@bitcoininu.io</a></li> 
+            </ul>
+          </div> 
+        </div>
+        <hr>
+        <div class="footer_copy">
+          <p>Copyright © 2023 Company Agency. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- **************** End Footer Area  *********************** --> 
+
+
+
+
+
+
+    <!-- JS File -->
+    <script src="assets/js/modernizr-3.11.2.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
