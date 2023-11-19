@@ -640,6 +640,7 @@ p {
 	font-weight: 600;
 	line-height: 130%;
 	letter-spacing: -1.44px;
+	text-align: center;
 }
 
 .tokenomic_right > p {
@@ -649,6 +650,7 @@ p {
 	font-weight: 500;
 	line-height: 180%;
 	margin: 30px 0 40px 0;
+	text-align: center;
 }
 
 .token_ul li h4 {
@@ -658,6 +660,7 @@ p {
 	font-weight: 800;
 	line-height: 60px;
 	letter-spacing: -1.92px;
+	text-align: center;
 }
 
 .token_ul p {
@@ -666,6 +669,7 @@ p {
 	font-style: normal;
 	font-weight: 500;
 	line-height: 30px;
+	text-align: center;
 }
 
 .token_ul p span{ 
