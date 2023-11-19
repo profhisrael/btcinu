@@ -432,8 +432,9 @@ p {
 }
 
 .btn_3:hover{
+	background-color:#F2B253;
+	color: white;
 	opacity: 0.83; 
-	color: #F2B253;
 }
 
 .change_right p {
