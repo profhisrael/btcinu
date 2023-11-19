@@ -983,7 +983,8 @@ p {
 .dot_white_2 {
 	position: absolute;
 	top: 384px;
-	right: 300px;
+	/* right: 300px; */
+	left:300px;
 }
  
 .dot_white_3 {
