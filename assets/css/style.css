@@ -711,8 +711,12 @@ p {
 }
 
 .stage_item:hover{
-	opacity: 0.83;
+	/* opacity: 0.83; */
+	border-radius: 5px;
+	border: 2px solid #252733;
 	background: var(--MAIN, linear-gradient(135deg, #a56f1e 0%, #a0573d 53.25%, #d36c5f 100%));
+	box-shadow: 0px 0px 32px 0px #252733;
+	
 }
 
 .stage_item p {
